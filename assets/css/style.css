@@ -1,0 +1,157 @@
+
+
+body {
+    width: 960px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("../images/fabric.png");
+    background-repeat: repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container1 {
+    position:fixed;
+    top:0px;
+    z-index:100;
+}
+
+#headshot {
+    float: left;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+}
+
+#navbackground2 {
+    position:relative;
+    top:0px;
+    z-index:-1;
+    float: left;
+    clear: both;
+}
+
+.divider {
+    width: 960px;
+    height: 2px;
+    background-color: black;
+    margin-top: 35px;
+    clear: both;
+
+}
+
+.nav {
+    position:fixed;
+    top:0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: .25rem;
+}
+
+
+#container2 {
+    margin-top:125px;
+    z-index: 0;
+}
+
+#title {
+    clear: both;
+    color: #4aaaa5;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text {
+    margin-bottom: 10px;
+
+}
+
+#button {
+    margin-bottom: 42px;
+    
+}
+
+.navbar-brand {
+    margin-right: 200px;
+
+}
+
+.imgcontainer {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+#container1 {
+    margin-bottom: 50px;
+
+}
+
+.caption {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    float: left;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 100px;
+    clear:both;
+}
+
+footer {
+    background-color: #666666;
+    border-width: 4px 0px 0px 0px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    position: fixed;
+    bottom: 0px;
+    left: 10%;
+    text-align: center;
+    width: 960px;
+    height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 685px) {
+    .divider {
+        margin-top: 0px;
+    }
+
+    #navbackground2 {
+        position:fixed;
+        top:0px;
+        z-index:-1;
+        float: left;
+        clear: both;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    footer {
+        text-align: left;
+        padding-left: 100px;
+    }
